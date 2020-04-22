@@ -13,14 +13,14 @@
   * **Step 2**:
     
     Fire up the VPN-Client and enter your TUM ID and password to connect.
-    ![ ](.images/vpn.png)
+    ![ ](images/vpn.png)
     
     
   * **Step 3**:
     Use your favourite browser to navigate to https://bhrigu.cne.ei.tum.de
     At the log-in prompt, enter your TUM ID and password again.
     You should see the following screen:
-    ![ ](.images/jupyterhub.png)
+    ![ ](images/jupyterhub.png)
     
     
   * **Step 4**:
@@ -28,5 +28,5 @@
     You can use the "Upload" button to load data and files to the server.
     
     You can also use the options under "New" to open a new Jupyter notebook ("Python3"), a terminal ("Terminal"), to create new directory ("Folder") or a new file ("Text File").
-    ![ ](.images/newoptions.png)
+    ![ ](images/newoptions.png)
     

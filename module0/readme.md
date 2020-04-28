@@ -20,4 +20,4 @@ There are four tasks. All tasks should be performed on a separate branch in git 
 For those of you who are unfamiliar with python and jupyter notebooks, or if you need to refresh your memory on either, you could work through materials from the MSNE Fundamentals of Computer Science course taught by Jan-Matthis Lückmann, Artur Speiser and Tamara Müller in WiSe 2019 [here](https://github.com/cne-tum/msne-datascience-2019)
 
 ## Submission
-If the tests are running through on GitHub, your implementation of task 1) and task 2) is correct.
+If the tests are running through on GitHub, your implementation of task 1) and task 2) is correct. The last commit in your repository before the deadline on 3rd of May, 11:59pm will be saved as submission.

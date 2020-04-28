@@ -9,7 +9,7 @@ The aim of the course is to teach you concepts and techniques for modelling and 
 The course will be taught by Jakob Macke, Ruben Portugues and Joseph Donovan, with help from Jan Bölts, Michael Deistler, Jan-Matthis Lückmann, Poornima Ramesh, Auguste Schulz and Artur Speiser.
 
 
-[Module 0: Introduction and Logistics](./module0/README.md)
+[Module 0: Introduction and Logistics](./module0/readme.md)
 
 [Module 1: Mechanistic neural models of decision-making](./module1/README.md)
 

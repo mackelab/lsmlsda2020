@@ -1,0 +1,14 @@
+name: lsmlsda
+channels:
+  - conda-forge
+  - defaults
+  - epfl-lcn
+dependencies:
+  - scipy
+  - numpy
+  - python=3.5.6
+  - brian2
+  - neurodynex
+  - jupyter
+prefix: /home/janfb/anaconda3/envs/lsmlsda
+

@@ -1,6 +1,8 @@
 # Large Scale Modelling and Large Scale Data Analysis 2020
 To clone this repository, install packages required for the assignments and access computational resources, please follow instructions [here](./module0/logistics.md)
 
+## News and Updates:
+The recordings and slides for the introductory session are now available on the [Moodle course page](https://www.moodle.tum.de/course/view.php?id=53556). You can also see them [here](https://tum.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=4f53ac8c-f2c6-430d-a267-abac00b1955f)
 
 ## Course outline:
 

@@ -1,7 +1,7 @@
 def add_two_numbers(a, b):
     # put your solution for task 1 here
-    return x
+    return a+b
 
 def add_integers_up_to_n(n):
-    # put your solution for task 2 here
-    return x
+    sum_int = (n * (n + 1)) / 2
+    return sum_int

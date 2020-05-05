@@ -1,7 +1,10 @@
 def add_two_numbers(a, b):
-    # put your solution for task 1 here
-    return a+b
+    m=a+b
+    return m
 
 def add_integers_up_to_n(n):
-    # put your solution for task 2 here
-    return x
+    result = 0
+    for i in range(1, n + 1):
+    result += i
+    
+    return result

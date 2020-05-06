@@ -11,7 +11,7 @@ Tasks:
 - Form a team of up to three members with which you will work on the projects to come. Please note that you will have to stay in this team for the rest of the course!
 - Read through background materials 1 - 2.
 - Work on exercises 1 and 2.
-  - Create your fork of the repository by accepting the [github classroom assignment](https://classroom.github.com/g/6CfgxEtI).
+  - Create your fork of the repository by accepting the [github classroom assignment](https://classroom.github.com/g/gQiTdsGb).
   - Clone your fork to work locally. (Note that you will always work exclusively in your fork / copy of the repository. You will never have to push to this repository (https://github.com/cne-tum/lsmlsda2020/).)
   - Work through the notebook, add code and plots in code cells, add text answer in markdown cells (more details in the notebook).
   - Commit regularly, your last commit before the deadline counts as submission.

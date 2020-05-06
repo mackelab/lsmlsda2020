@@ -13,6 +13,7 @@ Tasks:
 - Work on exercises 1 and 2.
   - Create your fork of the repository by accepting the [github classroom assignment](https://classroom.github.com/g/gQiTdsGb).
   - Clone your fork to work locally. (Note that you will always work exclusively in your fork / copy of the repository. You will never have to push to this repository (https://github.com/cne-tum/lsmlsda2020/).)
+  - Please read through the instructions and background material carefully, in order to get the most out of the exercises.
   - Work through the notebook, add code and plots in code cells, add text answer in markdown cells (more details in the notebook).
   - Commit regularly, your last commit before the deadline counts as submission.
 

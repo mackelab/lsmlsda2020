@@ -8,11 +8,13 @@ The ‘high-level’ objective will be to understand how to set up neural simula
 In week 1, you will get to know `brian` and the implementation of a mechanistic model perceptual decision making.
 
 Tasks: 
+- Form a team of up to three members with which you will work on the projects to come. Please note that you will have to stay in this team for the rest of the course!
 - Read through background materials 1 - 2.
-- Work on exercises 1 and 2. 
-  - create your fork of the repository by accepting the github classroom assignment.
-  - work through the notebook, add code and plots in code cells, add text answer in markdown cells.
-  - commit regularly, your last commit before the deadline counts as submission.
+- Work on exercises 1 and 2.
+  - Create your fork of the repository by accepting the [github classroom assignment](https://classroom.github.com/g/6CfgxEtI).
+  - Clone your fork to work locally. 
+  - Work through the notebook, add code and plots in code cells, add text answer in markdown cells (more details in the notebook).
+  - Commit regularly, your last commit before the deadline counts as submission.
 
 ## Reading:
 1) Chapter 16 of Neuronal Dynamics et al.: https://neuronaldynamics.epfl.ch/online/Ch16.html

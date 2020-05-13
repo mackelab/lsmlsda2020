@@ -15,7 +15,7 @@ Tasks:
   - commit regularly, your last commit before the deadline counts as submission.
   
 ## Week 2
-This week you will analyze the model.  
+This week you will analyze the model. [Link to github classroom assignment](https://classroom.github.com/g/ElrkUTfR).
 
 Tasks: 
   - Recap week 1, read through the solutions and make sure you understand them. Disuss with your colleages or open an issue in case you have questions or spot a mistake in the solutions. 

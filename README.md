@@ -2,6 +2,11 @@
 To clone this repository, install packages required for the assignments and access computational resources, please follow instructions [here](./module0/logistics.md)
 
 ## News and Updates:
+__13.05__
+
+The recordings, slides, reading material and assignment link for the third session are now available on Moodle.
+___
+
 __06.05__
 
 The recordings, slides and reading material for the second session are now available on the [Moodle course page](https://www.moodle.tum.de/course/view.php?id=53556). 

@@ -18,8 +18,8 @@ Tasks:
 This week you will analyze the model.  
 
 Tasks: 
-  - recap week 1, read through the solutions and make sure you understand them. Disuss with your colleages or open an issue in case you have questions or spot a mistake in the solutions. 
-  - work on exercises 3 and 4. Discuss with your colleages or open an issue if you have questions or if you are stuck.
+  - Recap week 1, read through the solutions and make sure you understand them. Disuss with your colleages or open an issue in case you have questions or spot a mistake in the solutions. 
+  - Work on exercises 3 and 4. Discuss with your colleages or open an issue if you have questions or if you are stuck.
 
 ## Reading:
 1) Chapter 16 of Neuronal Dynamics et al.: https://neuronaldynamics.epfl.ch/online/Ch16.html

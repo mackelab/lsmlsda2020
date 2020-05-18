@@ -24,6 +24,7 @@ Tasks:
 ## Reading:
 1) Chapter 16 of Neuronal Dynamics et al.: https://neuronaldynamics.epfl.ch/online/Ch16.html
 2) [Wong, K.-F. & Wang, X.-J. A Recurrent Network Mechanism of Time Integration in Perceptual Decisions. J. Neurosci. 26, 1314–1328 (2006)](https://www.jneurosci.org/content/26/4/1314)
+3) [Goncalves, Lueckmann, Deistler et al. 2019. Training deep neural density estimators to identify mechanistic models of neural dynamics](https://www.biorxiv.org/content/10.1101/838383v3)
 
 ## Logistics 
 We summarised all the logistics you need to take care of in [logistics.md](./logistics.md). 

@@ -22,7 +22,7 @@ Tasks:
   - Work on exercises 3 and 4. Discuss with your colleages or open an issue if you have questions or if you are stuck.
 
 ## Week 3
-This week you will learn about Bayesian parameter inference via simulation-based inference, using the example of the drift-diffusion model. [Link to github classroom assignment](https://classroom.github.com/g/ElrkUTfR).
+This week you will learn about Bayesian parameter inference via simulation-based inference, using the example of the drift-diffusion model. [Link to github classroom assignment](https://classroom.github.com/g/d3gJHFU4).
 
 Tasks: 
   - Read through the instructions in the notebook carefully and install the required packages in your conda environment. 

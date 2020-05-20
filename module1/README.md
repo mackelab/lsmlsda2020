@@ -21,6 +21,13 @@ Tasks:
   - Recap week 1, read through the solutions and make sure you understand them. Disuss with your colleages or open an issue in case you have questions or spot a mistake in the solutions. 
   - Work on exercises 3 and 4. Discuss with your colleages or open an issue if you have questions or if you are stuck.
 
+## Week 3
+This week you will learn about Bayesian parameter inference via simulation-based inference, using the example of the drift-diffusion model. [Link to github classroom assignment](https://classroom.github.com/g/ElrkUTfR).
+
+Tasks: 
+  - Read through the instructions in the notebook carefully and install the required packages in your conda environment. 
+  - Work on exercises 1-3 (optional 4) and discuss with your colleages or open an issue if you have questions.
+
 ## Reading:
 1) Chapter 16 of Neuronal Dynamics et al.: https://neuronaldynamics.epfl.ch/online/Ch16.html
 2) [Wong, K.-F. & Wang, X.-J. A Recurrent Network Mechanism of Time Integration in Perceptual Decisions. J. Neurosci. 26, 1314–1328 (2006)](https://www.jneurosci.org/content/26/4/1314)

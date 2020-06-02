@@ -80,7 +80,7 @@ def cost(params, stimulus, response, dt):
 #     log_likelihood = np.log(likelihood)
     
     # Another way to calculate log likelihood
-    log_likelihood = np.sum((response * (z + no.log(dt))) - r - gammaln(response + 1))
+    log_likelihood = np.sum((response * (z + np.log(dt))) - r - gammaln(response + 1))
     
     return log_likelihood
     

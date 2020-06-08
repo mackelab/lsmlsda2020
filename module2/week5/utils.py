@@ -32,14 +32,14 @@ def hankel(lags, _input):
     Returns:
     hank : matrix of float values of size '_input.size x lags'
     """
-    
-    _input_flat = _input.flatten()
-    hank = np.zeros((len(_input_flat), lags))
-    hank[:, 0] = _input_flat
-    for lag in range(1, lags):
-        hank[lag:, lag] = _input_flat[:-lag]
-    return hank
-
+    hankel_collect = np.zeros((0,lags))
+    for inp in _input:
+        hank = np.zeros((len(inp), lags))
+        hank[:, 0] = inp
+        for lag in range(1, lags):
+            hank[lag:, lag] = inp[:-lag]
+        hankel_collect = np.concatenate((hankel_collect,hank),0)
+    return hankel_collect
     
 def convolution(_filter, _input):
     """Returns the convolution product of the inputs.

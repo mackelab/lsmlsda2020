@@ -22,8 +22,24 @@ def make_filter(lags, mu1=3., mu2=8., s1=1., s2=5., eta=.2):
     _filter = _filter / np.linalg.norm(_filter)
     return _filter
 
-
 def hankel(lags, _input):
+    """Returns a Hankel matrix of size _input.size x lags
+    Parameters:
+    lags : int value. Number of input timebins in the past on which the response depends.
+    _input : vector of float values. Input sequence to be converted in to a Hankel matrix.
+    
+    Returns:
+    hank : matrix of float values of size '_input.size x lags'
+    """
+    
+    _input_flat = _input.flatten()
+    hank = np.zeros((len(_input_flat), lags))
+    hank[:, 0] = _input_flat
+    for lag in range(1, lags):
+        hank[lag:, lag] = _input_flat[:-lag]
+    return hank
+
+def hankel_new(lags, _input):
     """Returns a Hankel matrix of size _input.size x lags
     Parameters:
     lags : int value. Number of input timebins in the past on which the response depends.
@@ -40,7 +56,20 @@ def hankel(lags, _input):
             hank[lag:, lag] = inp[:-lag]
         hankel_collect = np.concatenate((hankel_collect,hank),0)
     return hankel_collect
+
+def convolution_new(_filter, _input):
+    """Returns the convolution product of the inputs.
+    Parameters:
+    _filter : vector of float values containing the convolutional filter.
+    _input : int value. The input to be convolved with the filter.
     
+    Returns:
+    Vector of float values, of same shape as '_input'.
+    """
+    hank = hankel_new(len(_filter), _input)
+    return np.dot(hank, _filter).reshape(_input.shape)
+
+
 def convolution(_filter, _input):
     """Returns the convolution product of the inputs.
     Parameters:
@@ -53,7 +82,7 @@ def convolution(_filter, _input):
     hank = hankel(len(_filter), _input)
     return np.dot(hank, _filter).reshape(_input.shape)
 
-        
+
 def cost(params, stimulus, response, dt):
     """Returns log likelihood of a linear-nonlinear Poisson model.
     Parameters:
@@ -83,8 +112,8 @@ def cost(params, stimulus, response, dt):
     log_likelihood = np.sum((response * (z + np.log(dt))) - r - gammaln(response + 1))
     
     return log_likelihood
-    
-    
+
+
 def nloglike(params, stimulus, response, dt):
     """Returns negative log likelihood of a linear-nonlinear Poisson model.
     Parameters:
@@ -144,8 +173,8 @@ def log_posterior(params, stimulus, response, dt):
     log_prior = np.sum(_filter ** 2 + baseline ** 2) / 2
     
     return log_likelihood + log_prior
-    
-    
+
+
 def nlogpost(params, stimulus, response, dt):
     """Returns negative log posterior of a linear-nonlinear Poisson model.
     Parameters:
@@ -210,7 +239,3 @@ def inv_hessian(params, stimulus, response, dt):
     H_baseline_inv = 1 / H_baseline
     
     return H_filter_inv, H_baseline_inv
-    
-    
-    
-    

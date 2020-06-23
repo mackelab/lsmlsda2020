@@ -7,3 +7,11 @@ conda activate imaginganalysis
 jupyter labextension install @jupyter-widgets/jupyterlab-manager ipyevents ipycanvas
 
 jupyter lab
+
+## Week 9 (June 24th-June 30th)
+
+You will need the datasets 
+
+- *imaging.h5* (in this repo)
+
+- *http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/plane45.tif*

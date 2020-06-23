@@ -1,0 +1,37 @@
+name: imaginganalysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - scipy
+  - numba
+  - pandas
+  - pytables
+  - git
+  - ffmpeg
+  - scikit-image=0.17
+  - scikit-learn
+  - matplotlib
+  - qt
+  - opencv
+  - h5py
+  - av
+  - jupyterlab
+  - ipywidgets
+  - ipyevents
+  - ipycanvas
+  - ipympl
+  - ffmpeg
+  - imageio
+  - nodejs
+  - pip: 
+        - pyqtgraph
+        - colorspacious
+        - scikit-image
+        - flammkuchen
+        - black
+        - cmocean
+        - napari
+        

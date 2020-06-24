@@ -12,6 +12,6 @@ jupyter lab
 
 You will need the datasets 
 
-- *imaging.h5* (in this repo)
+- *http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/imaging.h5*
 
 - *http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/plane45.tif*

@@ -22,5 +22,7 @@ Please download that data from:
 http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/lightsheet_3D/imaging.h5
 
 http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/whole_brain/traces_better_deconvolved.h5
+
 http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/whole_brain/stimulus_log.h5
+
 http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/whole_brain/behavior_log.h5

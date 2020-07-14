@@ -26,3 +26,5 @@ http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/whole_brain/traces_bet
 http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/whole_brain/stimulus_log.h5
 
 http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/whole_brain/behavior_log.h5
+
+http://www.portugueslab.com/courses/LSMLSDA_2020/datasets/whole_brain/coords.h5
